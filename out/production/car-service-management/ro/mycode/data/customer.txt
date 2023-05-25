@@ -1,0 +1,5 @@
+1,nameCustomer1,+401,addressCustomer1,emailCustomer1,passCustomer1,usernameCustomer1
+2,nameCustomer2,+402,addressCustomer2,emailCustomer2,passCustomer2,usernameCustomer2
+3,nameCustomer3,+403,addressCustomer3,emailCustomer3,passCustomer3,usernameCustomer3
+4,nameCustomer4,+404,addressCustomer4,emailCustomer4,passCustomer4,usernameCustomer4
+5,nameCustomer5,+405,addressCustomer5,emailCustomer5,passCustomer5,usernameCustomer5

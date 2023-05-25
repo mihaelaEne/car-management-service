@@ -1,0 +1,5 @@
+1,carNumber1,carType1,carDescription1,101
+2,carNumber2,carType2,carDescription1,202
+3,carNumber3,carType3,carDescription1,303
+4,carNumber4,carType4,carDescription1,404
+5,carNumber5,carType5,carDescription1,505

@@ -1,0 +1,5 @@
+1,nameMechanic1,emailMechanic1,passMechanic1
+2,nameMechanic2,emailMechanic2,passMechanic2
+3,nameMechanic3,emailMechanic3,passMechanic3
+4,nameMechanic4,emailMechanic4,passMechanic4
+5,nameMechanic5,emailMechanic5,passMechanic5
