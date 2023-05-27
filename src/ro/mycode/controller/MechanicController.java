@@ -38,7 +38,7 @@ public class MechanicController {
 
     public void afisareMechanic(){
         for(int i=0; i< mechanics.size(); i++){
-            System.out.println(this.mechanics.get(i).descriereMechanic());
+            System.out.println(this.mechanics.get(i).toString());
             System.out.println("\n");
         }
     }

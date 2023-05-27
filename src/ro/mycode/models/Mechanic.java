@@ -47,7 +47,8 @@ public class Mechanic {
         this.password = password;
     }
 
-    public String descriereMechanic() {
+    @Override
+    public String toString() {
         String text="";
         text+="Mechanic properties:"+"\n";
         text+="Id:"+this.id+"\n";

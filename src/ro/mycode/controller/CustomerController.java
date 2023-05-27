@@ -40,7 +40,7 @@ public class CustomerController {
 
     public void afisareCustomer() {
         for (int i = 0; i < customers.size(); i++) {
-            System.out.println(this.customers.get(i).descriereCustomer());
+            System.out.println(this.customers.get(i).toString());
             System.out.println("\n");
         }
     }

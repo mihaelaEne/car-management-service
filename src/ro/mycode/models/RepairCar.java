@@ -37,7 +37,8 @@ public class RepairCar extends Car{
         this.bill = bill;
     }
 
-    public String descriereRepairCar(){
+@Override
+    public String toString(){
         String text="";
         text+="Car-repaired:"+"\n";
         text+="Id:"+super.getId()+"\n";
@@ -51,8 +52,8 @@ public class RepairCar extends Car{
         return text;
     }
 
-
-    public String toSaveRepairedCar(){
-        return super.toSaveCar()+","+isRepaired+","+bill;
+@Override
+    public String toSave(){
+        return super.toSave()+","+isRepaired+","+bill;
     }
 }

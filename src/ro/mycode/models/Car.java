@@ -63,8 +63,8 @@ public class Car {
         this.customerID = customerID;
     }
 
-
-    public String descriereCar() {
+@Override
+    public String toString() {
         String text="";
         text+="Car properties:"+"\n";
         text+="Id:"+this.id+"\n";
@@ -85,7 +85,7 @@ public class Car {
     }
 
 
-    public String toSaveCar() {
+    public String toSave() {
         return id + "," + carNumber + "," + carType + "," + description + "," + customerID;
     }
 

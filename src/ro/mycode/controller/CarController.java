@@ -34,7 +34,7 @@ public class CarController {
 
     public void afisareCar() {
         for (int i = 0; i < cars.size(); i++) {
-            System.out.println(this.cars.get(i).descriereCar());
+            System.out.println(this.cars.get(i).toString());
             System.out.println("\n");
         }
     }
@@ -62,9 +62,9 @@ public class CarController {
         String text = "";
         int i = 0;
         for (i = 0; i < cars.size() - 1; i++) {
-            text += cars.get(i).toSaveCar() + "\n";
+            text += cars.get(i).toSave() + "\n";
         }
-        text += cars.get(i).toSaveCar();
+        text += cars.get(i).toSave();
         return text;
     }
 

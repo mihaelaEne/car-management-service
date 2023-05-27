@@ -77,8 +77,8 @@ public class Customer {
     public void setUsername(String username) {
         this.username = username;
     }
-
-    public String descriereCustomer() {
+@Override
+    public String toString() {
         String text="";
         text+="Customer properties:"+"\n";
         text+="Id:"+this.id+"\n";
